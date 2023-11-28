@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.tabel_full{
+    text-align: center;
+}
+.dash_full>.add_btnn>.btn{
+    background: none;
+    border: none;
+    padding: 5px;
+    margin-top: 16px;
+    border: 3px solid orange;   
+   list-style-type: none;
+    
+}
+.dash_full>.add_btnn>.btn:hover{
+    background-color: burlywood;
+}
+.row{
+    height: 100vh;
+}
+.table_container{
+    width: 100px;
+    display: flex;
+     justify-content: center;
+}
+.table_container>h1{
+    text-align: center;
+}
+.tabel_full{
+    width: 100%;
+}
+.table{
+    width: 100%;
+}
+.btn_task{
+    background: none;
+    border: 2px solid orange;
+}
+.btn_task:hover{
+    background-color: darkgray;
+}
